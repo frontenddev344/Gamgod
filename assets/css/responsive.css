@@ -58,6 +58,9 @@
   .nav>.nav-list>li a {
     color:var(--bg-dark);
 }
+.footer_right ul {
+  margin-top: 30px;
+}
 }
 
 @media (max-width: 767px) 

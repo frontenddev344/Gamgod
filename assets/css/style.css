@@ -280,9 +280,8 @@ header {
   display: flex;
   padding: 0;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 90px;
 }
-
 .footer_right ul li {
   margin-right: 25px;
 }
@@ -325,4 +324,7 @@ footer .footer_right ul li a:hover {
 }
 .privacy-term p {
 margin-bottom: 16px;
+}
+a.logo img {
+  max-width: 90px;
 }
