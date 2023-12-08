@@ -215,6 +215,7 @@ header {
 .resort_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: 1px solid #c19d68;
+  height: 100%;
 }
 
 .rating i {
@@ -327,4 +328,8 @@ margin-bottom: 16px;
 }
 a.logo img {
   max-width: 90px;
+}
+
+.home_page_banner img {
+  height: 600px;
 }
