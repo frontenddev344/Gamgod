@@ -31,11 +31,16 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 800;
+}
+p{
+  font-size: 17px;
 }
 
 img {
@@ -314,3 +319,10 @@ footer .footer_right ul li a:hover {
   color: var(--font-color);
 }
 
+.privacy-term h2 {
+  font-size: 26px;
+  color: var(--main-color);
+}
+.privacy-term p {
+margin-bottom: 16px;
+}
