@@ -245,11 +245,6 @@ header {
   margin-bottom: 16px;
 }
 
-.news_letter_inner {
-  padding: 30px;
-  background: var(--bg-light);
-  border-radius: 5px;
-}
 
 .form-control {
   border-radius: unset;
@@ -294,7 +289,7 @@ header {
 }
 
 footer {
-  background-color:#fff;
+  background-color:var(--bg-light);
 }
 
 .footer_right h2 {
@@ -397,4 +392,11 @@ a.logo img {
 }
 .image_resort_list a img {
   border-radius: 10px 0px 0px 10px;
+}
+.news_letter_email {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 700px;
+  background: #e8e9eb;
+  border-radius: 5px;
 }
