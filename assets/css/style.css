@@ -5,7 +5,7 @@ body,
 }
 
 :root {
-  --main-color: #ee4b2b;
+  --main-color: #008080;
   --bg-dark: #1e1e1e;
   --bg-light: #E8E9EB;
   --font-color: #fff;
@@ -78,11 +78,12 @@ a.common_btn:hover {
 
 .nav {
   width: 100%;
-  background-color: var(--bg-dark);
+  background-color: #fff;
   display: flex;
   align-items: center;
   padding: 20px 60px;
   text-transform: uppercase;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .nav>.nav-header {
@@ -214,7 +215,7 @@ header {
 
 .resort_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border: 1px solid #ee4b2b;
+  border: 1px solid #008080;
   height: 100%;
 }
 
@@ -293,11 +294,11 @@ header {
 }
 
 footer {
-  background-color: var(--bg-dark);
+  background-color:#fff;
 }
 
 .footer_right h2 {
-  color: var(--font-color);
+  color: var(--main-color);
 }
 
 .footer_left .logo {
@@ -310,13 +311,13 @@ footer .footer_left ul li a {
   transition: all 0.5s;
 }
 footer .footer_left ul li a:hover {
-  color: var(--font-color);
+  color: #000;
 }
 footer .footer_rightul li a {
   transition: all 0.5s;
 }
 footer .footer_right ul li a:hover {
-  color: var(--font-color);
+  color: #000;
 }
 
 .privacy-term h2 {
@@ -339,8 +340,8 @@ a.logo img {
 /****cookies*****/
 .cookie-alert {
   align-items: baseline;
-  background: rgb(0, 0, 0);
-  color: white;
+  background: #fff;
+  color: var(--main-color);
   left: auto;
   position: fixed;
   width: 100%;
@@ -391,8 +392,8 @@ a.logo img {
   padding: 30px 0;
 }
 .rating_section {
-  border-left: 1px solid #ee4b2b;
-  border-right: 1px solid #ee4b2b;
+  border-left: 1px solid #008080;
+  border-right: 1px solid #008080;
 }
 .image_resort_list a img {
   border-radius: 10px 0px 0px 10px;
