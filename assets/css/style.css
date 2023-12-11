@@ -5,7 +5,7 @@ body,
 }
 
 :root {
-  --main-color: #c19d68;
+  --main-color: #ee4b2b;
   --bg-dark: #1e1e1e;
   --bg-light: #E8E9EB;
   --font-color: #fff;
@@ -214,7 +214,7 @@ header {
 
 .resort_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border: 1px solid #c19d68;
+  border: 1px solid #ee4b2b;
   height: 100%;
 }
 
@@ -281,7 +281,7 @@ header {
   display: flex;
   padding: 0;
   list-style: none;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 .footer_right ul li {
   margin-right: 25px;
@@ -327,7 +327,7 @@ footer .footer_right ul li a:hover {
 margin-bottom: 16px;
 }
 a.logo img {
-  max-width: 90px;
+  max-width: 150px;
 }
 
 .home_page_banner img {
@@ -384,14 +384,15 @@ a.logo img {
 .resort_list {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   text-align: center;
-  border-radius: 10px
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 .common_padding {
   padding: 30px 0;
 }
 .rating_section {
-  border-left: 1px solid #c19d68;
-  border-right: 1px solid #c19d68;
+  border-left: 1px solid #ee4b2b;
+  border-right: 1px solid #ee4b2b;
 }
 .image_resort_list a img {
   border-radius: 10px 0px 0px 10px;
