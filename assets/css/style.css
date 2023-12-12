@@ -78,12 +78,9 @@ a.common_btn:hover {
 
 .nav {
   width: 100%;
-  background-color: #fff;
   display: flex;
   align-items: center;
-  padding: 20px 60px;
   text-transform: uppercase;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .nav>.nav-header {
@@ -130,6 +127,8 @@ header {
   position: fixed;
   width: 100%;
   z-index: 999;
+  padding: 20px 0px;
+  background-color: #fff;
 }
 
 .nav-title a {
@@ -399,4 +398,15 @@ a.logo img {
   max-width: 700px;
   background: #e8e9eb;
   border-radius: 5px;
+}
+
+
+.lower_footer {
+  background: #008080;
+}
+.lower_footer p{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
 }

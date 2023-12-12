@@ -34,7 +34,7 @@
     display: inline-block;
     position: absolute;
     right: 15px;
-    top: 10px;
+    top: 20px;
     padding-top: 0.2rem;
     z-index: 2;
   }
@@ -76,7 +76,7 @@
   }
 
   .nav>#nav-check:checked~.nav-list {
-    height: 700px;
+    height: 200px;
   }
 
   .nav>.nav-header {
@@ -87,6 +87,9 @@
 }
 .footer_right ul {
   margin-top: 30px;
+}
+header {
+  padding: 0px 0px;
 }
 }
 
